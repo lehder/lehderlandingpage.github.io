@@ -1,0 +1,57 @@
+html {
+    font-size: 16px;
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 5%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: wheat;
+    text-decoration: none;
+    padding: .9rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: rgb(152, 149, 149);
+    /*background: #2E460E;*/
+    /*border-radius: 1rem 0 0 0;*/
+}
+
+.icon-twitter {
+    background: #339DC5;
+}
+
+.icon-github {
+    background: rgb(247, 100, 131);
+    /*background: #E83028;*/
+}
+
+.icon-instagrama {
+    background: rgb(64, 120, 206);
+    /*background: #3F60A5;*/
+    /*border-radius: 0 0 0 1rem;*/
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0.42);
+}
