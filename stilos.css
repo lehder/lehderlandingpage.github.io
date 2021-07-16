@@ -92,9 +92,9 @@ nav a {
 
 header {
 
-  background: #8e9eab;
-  background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);
-  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  background: hsl(208, 27%, 64%);
+  background: -webkit-linear-gradient(to right, #74b1e2, #dfeff3);
+  background: linear-gradient(to right, #74b1e2, #dfeff3);
   height: 800px;
   padding: 170px;
   width: 100%;
