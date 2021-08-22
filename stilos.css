@@ -122,6 +122,7 @@ height: 50px;
   flex-direction: column;
   text-align: center;
   animation: arriba 1s ease-in;
+  background-color: transparent;
 }
 .img {
 border-radius: 50%;
@@ -239,4 +240,7 @@ border-radius: 50%;
   display: flex;
   justify-content: center;
 }
+}
+@media screen and (max-width: 600px) {
+
 }
